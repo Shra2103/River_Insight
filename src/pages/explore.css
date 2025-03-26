@@ -1,0 +1,53 @@
+
+.explore {
+    text-align: center;
+  }
+  
+  .explore h2 {
+    font-size: 30px; /* Increase the size of the heading text */
+    color: white;
+  }
+  
+  .explore input[type="search"] {
+    font-size: 18px;       /* Increase the size of the text inside the search bar */
+    padding: 10px 15px;    /* Increase the padding to make the search bar larger */
+    width: 500px;          /* Increase the width of the search bar */
+    border: 2px solid #ccc;
+    
+  }
+  
+  .explore input[type="search"]::placeholder {
+    font-size: 16px;       /* Adjust the size of the placeholder text */
+  }
+
+.myexplore
+{
+    background-image: url('C:\Users\91755\Downloads\HCI_project\river-insights\src\pages\explore.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #f0f0f0; /* Fallback background color */
+    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+#bt1 button {
+    background-color:#007bff; /* Orange background color for the button */
+    color: white;             /* White text color for contrast */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;        /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    margin-top: 20px;
+  }
+  
+  #bt1 button:hover {
+    background-color:  #0ba6ff ; /* Darker orange on hover */
+  }
+  
+  

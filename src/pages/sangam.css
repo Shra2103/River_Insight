@@ -1,0 +1,49 @@
+
+
+.mysangam {
+    background-image: url('C:\Users\91755\Downloads\HCI_project\river-insights\src\pages\sangam.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      background-color: #f0f0f0; /* Fallback background color */
+      
+    }
+      
+    .sangam {
+      display: flex;
+      flex-direction: column;   /* Align items in a column */
+      height: 100vh;            /* Full viewport height to ensure vertical centering */
+      font-size: 2rem; 
+      
+    }
+      
+      
+      #bt2 button {
+        background-color: orange; /* Orange background color for the button */
+        color: white;             /* White text color for contrast */
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;        /* Rounded corners */
+        transition: background-color 0.3s ease;
+        justify-content: center;  /* Center vertically */
+      align-items: center;  /* Smooth hover effect */
+      }
+      
+      #bt2 button:hover {
+        background-color: darkorange; /* Darker orange on hover */
+      }
+      .sangam h2,
+.sangam p {
+  text-align: left;
+  color:black; /* Move header and paragraph to the left */
+}
+#bt2 {
+  display: flex;
+  justify-content: center; /* Center the button */
+}
+
+      
+      

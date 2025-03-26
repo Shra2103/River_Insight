@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Books</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('C:\Users\91755\Downloads\HCI_project\river-insights\src\pages\back.png'); /* Add your background image URL */
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      text-align: center;
+      padding-top: 50px;
+      color: #333;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    .book-list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .book-item {
+      display: flex;
+      align-items: center;
+      margin: 20px 0;
+    }
+
+    .book-item img {
+      width: 50px;
+      height: 64px;
+      margin-right: 20px;
+    }
+
+    .book-title {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .book-author {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .view-more {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .view-more:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Books</h1>
+    <ul class="book-list">
+      <li class="book-item">
+        <img src="pdf-icon.png" alt="PDF Icon"> <!-- Add PDF icon image -->
+        <div>
+          <p class="book-title">River Conservation and Water Resource Management</p>
+          <p class="book-author">by Praveen Kumar Rai</p>
+        </div>
+      </li>
+      <li class="book-item">
+        <img src="pdf-icon.png" alt="PDF Icon"> <!-- Add PDF icon image -->
+        <div>
+          <p class="book-title">The River System and River Bank Stabilization: Case Studies from Maharashtra</p>
+        </div>
+      </li>
+      <li class="book-item">
+        <img src="pdf-icon.png" alt="PDF Icon"> <!-- Add PDF icon image -->
+        <div>
+          <p class="book-title">River Water Quality Modeling: Godavari River</p>
+          <p class="book-author">by Saurabh H. Bhoir</p>
+        </div>
+      </li>
+    </ul>
+    <a href="#" class="view-more">View More</a>
+  </div>
+
+</body>
+</html>

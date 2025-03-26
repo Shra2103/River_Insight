@@ -1,0 +1,43 @@
+
+
+.myhome {
+background-image: url('C:\Users\91755\Downloads\HCI_project\river-insights\src\pages\home.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #f0f0f0; /* Fallback background color */
+  
+}
+  
+.home {
+  display: flex;
+  flex-direction: column;   /* Align items in a column */
+  justify-content: center;  /* Center vertically */
+  align-items: center;      /* Center horizontally */
+  height: 100vh;            /* Full viewport height to ensure vertical centering */
+  text-align: center;
+  font-size: 2rem; 
+           /* Increase text size */
+}
+.myhome h1 .myhome p{
+  color:black;
+}
+  
+  
+  #bt button {
+    background-color: orange; /* Orange background color for the button */
+    color: white;             /* White text color for contrast */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;        /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  #bt button:hover {
+    background-color: darkorange; /* Darker orange on hover */
+  }
+  
+  

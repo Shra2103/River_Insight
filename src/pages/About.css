@@ -1,0 +1,71 @@
+.educational-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('C:/Users/91755/Downloads/HCI_project/river-insights/src/pages/back.png'); /* Add background image URL here */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #333;
+  padding: 10px 20px; /* Add padding for spacing */
+  border-radius: 10px; /* Optional: Round corners */
+}
+
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px; /* Increased gap between items */
+  padding: 20px; /* Add padding around the grid */
+}
+
+.resource-item {
+  display: flex;
+  flex-direction: column; /* Ensure label is below the image */
+  align-items: center;    /* Center both image and text */
+  justify-content: center;
+  transition: transform 0.3s ease;
+  text-align: center;     /* Make sure text is centered */
+}
+
+.resource-item:hover {
+  transform: scale(1.1);
+}
+
+.resource-item img {
+  width: 120px; /* Increased width */
+  height: 120px; /* Increased height */
+  margin-bottom: 10px; /* Space between image and label */
+  border: 2px solid black; /* Black border */
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.resource-item label {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+  display: block; /* Ensure the label takes full width and centers below image */
+  text-align: center;
+}
+
+/* Optional: Add a white box behind images */
+.resources-wrapper {
+  background: rgba(255, 255, 255, 0.9); /* White background for the wrapper */
+  padding: 20px; /* Padding for spacing */
+  border-radius: 10px; /* Optional: Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Slight shadow for depth */
+  box-sizing: inherit;
+}
+
+.resource-item a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  text-align: center;
+}

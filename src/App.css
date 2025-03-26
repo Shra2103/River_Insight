@@ -1,0 +1,54 @@
+.navbar {
+    background-color: #0077cc; /* Updated to a blue tone */
+    padding: 1.5em; /* Slightly more padding for a balanced look */
+    display: flex;
+    justify-content: space-between; /* Ensures elements are spread out */
+    align-items: center;
+  }
+  
+  .navbar h1 {
+    color: #ffb703; /* Bright yellow/orange color for the title (for contrast) */
+    font-size: 1.8em;
+    margin: 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0; /* Remove default padding */
+  }
+  
+  .navbar ul li {
+    margin: 0 1em; /* Space between items */
+    position: relative; /* Position relative for pseudo-element */
+  }
+  
+  .navbar ul li:not(:last-child)::after {
+    content: "|"; /* Vertical line separator */
+    color: black; /* Color of the vertical line */
+    margin-left: 1em; /* Space between the option and the separator */
+  }
+  
+  .navbar ul li a {
+    color: black; /* Change link color to black */
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+    border-bottom: 2px solid transparent; /* Bottom border for underline effect */
+  }
+  
+  .navbar ul li a:hover {
+    color: #ffb703; /* Matches the title color on hover */
+    border-bottom: 2px solid #ffb703; /* Underline on hover */
+  }
+  
+  /* Page Sections */
+  .home, .Edu, .sangam, .water-quality, .climate-impact, .contact,.explore {
+    padding: 3em; /* More padding to ensure the content has room to breathe */
+  }
+  
+  /* Footer Styling */
+  
+  

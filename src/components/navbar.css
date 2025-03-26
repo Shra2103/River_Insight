@@ -1,0 +1,45 @@
+/* navbar.css */
+.navbar {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 10px 20px; /* Add padding for spacing */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .navbar ul {
+    list-style: none; /* Remove bullets */
+    display: flex; /* Use flexbox for horizontal arrangement */
+    align-items: center; /* Center items vertically */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .navbar li {
+    margin: 0 15px; /* Spacing between items */
+  }
+  
+  .navbar img {
+    width: 80px; /* Increased logo size */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between logo and first link */
+  }
+  
+  .navbar a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Default text color */
+    padding: 5px 10px; /* Add padding for better clickable area */
+    border-radius: 4px; /* Optional: Rounded corners for links */
+    transition: background-color 0.3s; /* Smooth background change on hover */
+  }
+  
+  .navbar a:hover {
+    color: #e2e2e2; /* Change background on hover */
+  }
+  
+  .active {
+    font-weight: bold; /* Highlight active link */
+    color: #007bff; /* Change text color for active link */
+    border-bottom: 2px solid #007bff; /* Optional: Add underline for active link */
+  }
+  

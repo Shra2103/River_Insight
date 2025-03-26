@@ -1,0 +1,52 @@
+/* Footer container */
+.footer-container {
+    background-color: #333;        /* Dark background */
+    color: white;                  /* White text */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;           /* Center align items */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Align sections side-by-side */
+    width: 100%;
+    max-width: 1200px;             /* Optional max width for larger screens */
+}
+
+.footer-section {
+    flex: 1;                        /* Allow sections to expand equally */
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;               /* Space between sections */
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;           /* Space below heading */
+    font-size: 1.2em;              /* Heading font size */
+}
+
+.footer-section ul {
+    list-style-type: none;         /* Remove default list styling */
+    padding: 0;                    /* Remove padding */
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;           /* Space between list items */
+}
+
+.footer-section ul li:hover {
+    text-decoration: underline;     /* Underline on hover */
+    cursor: pointer;                /* Pointer cursor on hover */
+}
+
+/* Footer bottom text */
+footer {
+    margin-top: 20px;              /* Space above footer text */
+    font-size: 0.9em;              /* Font size for footer text */
+    text-align: center;            /* Center the footer text */
+    border-top: 1px solid #444;    /* Top border */
+    width: 100%;                   /* Full width */
+    padding-top: 10px;             /* Padding above footer text */
+}

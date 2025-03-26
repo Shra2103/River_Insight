@@ -1,0 +1,63 @@
+.mywater {
+  background-image: url('C:/Users/91755/Downloads/HCI_project/river-insights/src/pages/back.png'); /* Adjust path as necessary */
+  background-size: cover;  /* Ensure the background image covers the entire div */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center center; /* Center the background image */
+  height: 100vh; /* Set the height of the container to full viewport height */
+  width: 100vw; /* Set width to 100% of the viewport */
+  display: flex; /* Enables the use of flex properties for aligning child elements */
+  align-items: center; /* Vertically align child elements in the middle */
+  justify-content: center; /* Horizontally center the child elements */
+  flex-direction: column; /* Stack content vertically for better responsiveness */
+  padding: 20px; /* Add some padding to avoid content sticking to edges */
+  box-sizing: border-box; /* Ensure padding is included in the element's width and height */
+  overflow: hidden; /* Prevent content from overflowing */
+}
+
+.water-quality {
+  background: rgba(255, 255, 255, 0.8); /* Slight white background for readability, adjust transparency */
+  padding: 20px; /* Padding around the text */
+  border-radius: 10px; /* Rounded corners */
+  text-align: center; /* Center the text inside */
+  max-width: 800px; /* Constrain the maximum width of the content */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add a slight shadow for a floating effect */
+}
+
+.water-parameters {
+  display: flex; /* Enable flexbox to display items in a row */
+  justify-content: space-around; /* Distribute space evenly between items */
+  align-items: center; /* Vertically center items */
+  flex-wrap: wrap; /* Allow items to wrap into the next line on smaller screens */
+  margin-top: 20px; /* Add space between the text content and the images */
+}
+
+.parameter {
+  background: rgba(255, 255, 255, 0.9); /* Slightly more transparent background for each parameter box */
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 150px; /* Set a fixed width for each parameter */
+  margin: 10px; /* Add spacing between parameter boxes */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a lifted effect */
+  transition: transform 0.3s ease; /* Add transition for smooth zoom effect */
+}
+
+.parameter:hover {
+  transform: scale(1.1); /* Zoom in when hovering over the entire parameter box */
+}
+
+.parameter img {
+  width: 100%; /* Make the image responsive to fit the container */
+  height: auto; /* Keep the image's aspect ratio */
+  transition: transform 0.3s ease; /* Add smooth transition for image zoom effect */
+}
+
+.parameter:hover img {
+  transform: scale(1.2); /* Zoom in the image on hover */
+}
+
+@media (max-width: 768px) {
+  .water-parameters {
+    flex-direction: column; /* Stack images vertically on smaller screens */
+  }
+}
