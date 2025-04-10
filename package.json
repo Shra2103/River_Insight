@@ -9,12 +9,13 @@
     "cors": "^2.8.5",
     "express": "^4.21.0",
     "mongoose": "^8.7.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-icon": "^1.0.0",
     "react-router-dom": "^6.26.2",
     "react-scripts": "^5.0.1",
-    "web-vitals": "^2.x.x"
+    "web-vitals": "^2.x.x",
+    "webpack-dev-server": "^4.15.0"
   },
   "browserslist": {
     "production": [
@@ -27,5 +28,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "fork-ts-checker-webpack-plugin": "^6.5.0"
   }
 }
